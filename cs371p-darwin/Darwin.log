@@ -1,0 +1,143 @@
+commit 24d6257d1ac90075e316207a2b41c3720943530f
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 18:40:38 2015 -0600
+
+    add html
+
+commit 5253aa9891bc428891d012acd170f7bfc93a5755
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 18:11:40 2015 -0600
+
+    add tests
+
+commit 2f8268fe38ffe57bd4f8aed05bfec14bcc15f87c
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 16:51:24 2015 -0600
+
+    finsihed best
+
+commit b7f4d135a96390260490d2dc9715941c351e028a
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 16:12:05 2015 -0600
+
+    fixed Darwin.pdf
+
+commit b8f01214f1173793d2f7761e49c1307993fbb38d
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 09:54:32 2015 -0600
+
+    added best species
+
+commit 67c49692b908ee9cdc382d8fd51ca4d18d0e65ad
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 09:08:22 2015 -0600
+
+    fixed left() and right()
+
+commit b099e43f9284db7974bfed6931ed53d341bbae55
+Author: Hieu Nguyen <hn3935@cs.utexas.edu>
+Date:   Thu Nov 5 08:01:10 2015 -0600
+
+    add tests
+
+commit 771f6fb68e2fb4663793c100afa085b3af416eb2
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 06:50:57 2015 -0600
+
+    add tests
+
+commit 062bdd96b6688942d0dfaa1a86b54b9b239315ca
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 05:41:43 2015 -0600
+
+    add best
+
+commit 68a81968e4f74db07507b3e1346b67ec9d746b07
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 05:14:01 2015 -0600
+
+    fixed RunDarwin.c++
+
+commit b13202b5c09bb329c0ca27487cb98020f6403e2d
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 05:10:21 2015 -0600
+
+    RunDarwin.c++
+
+commit 42945bd0664f17d70a44414d496617708ec579a1
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 01:01:33 2015 -0600
+
+    add documentation
+
+commit 6e801dfc6e50c6d0f5653f0b1d86330e0b8d3468
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 00:30:34 2015 -0600
+
+    begin testing; closes #1, closes #2, closes #8, closes #9, closes #10, closes #11, closes #12, closes #13, closes #14
+
+commit bfa51502beea3b8c2e98b7bf74d6020d653beac9
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Thu Nov 5 00:25:08 2015 -0600
+
+    separate .h and .c++ files
+
+commit f2f0c6a300242e5c28a8fa0ebf6b500d6cea2f2b
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Wed Nov 4 18:40:37 2015 -0600
+
+    version 2
+
+commit 0488949c81e6798538bfbe99dcd68dc90c7464cf
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Wed Nov 4 16:23:54 2015 -0600
+
+    version 1, add << overloads
+
+commit eb010d2ed14df6e98819fbcfad66481aed8f5b51
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Wed Nov 4 14:51:31 2015 -0600
+
+    species executes instructions
+
+commit dd5df8cdbebac7618dfc16da0ec05c9978dc5dcd
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Wed Nov 4 11:46:18 2015 -0600
+
+    halfway done
+
+commit 5e70416959608d05303403418691aeeb93990ae8
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Tue Nov 3 19:22:13 2015 -0600
+
+    add iterator
+
+commit 9ac1192eee98c9a7b10e37dcb848176eddd5c2e1
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Tue Nov 3 18:54:29 2015 -0600
+
+    before fixing iterator
+
+commit 2ba6b379a5d5874b7841819df9972f76580aa04b
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Mon Nov 2 18:52:02 2015 -0600
+
+    add Darwin.h
+
+commit 00d9566b2c5db4a930b5096be4d4e1ac542785a0
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Sat Oct 31 16:39:07 2015 -0500
+
+    adding innitial files
+
+commit 895e085419e83df6ba3a3d679b46cae5bb12fc36
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Sat Oct 31 16:37:31 2015 -0500
+
+    setting up
+
+commit 030eb73ef2210c2699e03a4bd2c57b8c61a1024e
+Author: hn3935 <hieunguyen1408@gmail.com>
+Date:   Sat Oct 31 16:00:32 2015 -0500
+
+    first commit

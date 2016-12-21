@@ -1,0 +1,299 @@
+==8883== Memcheck, a memory error detector
+==8883== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==8883== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==8883== Command: ./TestDarwin
+==8883== 
+Running main() from gtest_main.cc
+[==========] Running 126 tests from 5 test cases.
+[----------] Global test environment set-up.
+[----------] 10 tests from DarwinFixture
+[ RUN      ] DarwinFixture.constructor1
+[       OK ] DarwinFixture.constructor1 (21 ms)
+[ RUN      ] DarwinFixture.constructor2
+[       OK ] DarwinFixture.constructor2 (3 ms)
+[ RUN      ] DarwinFixture.constructor3
+[       OK ] DarwinFixture.constructor3 (3 ms)
+[ RUN      ] DarwinFixture.constructor4
+[       OK ] DarwinFixture.constructor4 (3 ms)
+[ RUN      ] DarwinFixture.constructor5
+[       OK ] DarwinFixture.constructor5 (3 ms)
+[ RUN      ] DarwinFixture.constructor6
+[       OK ] DarwinFixture.constructor6 (3 ms)
+[ RUN      ] DarwinFixture.constructor7
+[       OK ] DarwinFixture.constructor7 (1 ms)
+[ RUN      ] DarwinFixture.constructor8
+[       OK ] DarwinFixture.constructor8 (2 ms)
+[ RUN      ] DarwinFixture.constructor9
+[       OK ] DarwinFixture.constructor9 (3 ms)
+[ RUN      ] DarwinFixture.constructor10
+[       OK ] DarwinFixture.constructor10 (2 ms)
+[----------] 10 tests from DarwinFixture (50 ms total)
+
+[----------] 57 tests from TestDarwin
+[ RUN      ] TestDarwin.addCreature1
+[       OK ] TestDarwin.addCreature1 (10 ms)
+[ RUN      ] TestDarwin.addCreature2
+[       OK ] TestDarwin.addCreature2 (3 ms)
+[ RUN      ] TestDarwin.addCreature3
+[       OK ] TestDarwin.addCreature3 (3 ms)
+[ RUN      ] TestDarwin.addCreature4
+[       OK ] TestDarwin.addCreature4 (5 ms)
+[ RUN      ] TestDarwin.addCreature5
+[       OK ] TestDarwin.addCreature5 (5 ms)
+[ RUN      ] TestDarwin.isWall1
+[       OK ] TestDarwin.isWall1 (2 ms)
+[ RUN      ] TestDarwin.isWall2
+[       OK ] TestDarwin.isWall2 (2 ms)
+[ RUN      ] TestDarwin.isWall3
+[       OK ] TestDarwin.isWall3 (2 ms)
+[ RUN      ] TestDarwin.isWall4
+[       OK ] TestDarwin.isWall4 (2 ms)
+[ RUN      ] TestDarwin.isWall5
+[       OK ] TestDarwin.isWall5 (2 ms)
+[ RUN      ] TestDarwin.isWall6
+[       OK ] TestDarwin.isWall6 (3 ms)
+[ RUN      ] TestDarwin.isWall7
+[       OK ] TestDarwin.isWall7 (22 ms)
+[ RUN      ] TestDarwin.isWall8
+[       OK ] TestDarwin.isWall8 (2 ms)
+[ RUN      ] TestDarwin.isWall9
+[       OK ] TestDarwin.isWall9 (2 ms)
+[ RUN      ] TestDarwin.isWall10
+[       OK ] TestDarwin.isWall10 (2 ms)
+[ RUN      ] TestDarwin.isEmpty1
+[       OK ] TestDarwin.isEmpty1 (5 ms)
+[ RUN      ] TestDarwin.isEmpty2
+[       OK ] TestDarwin.isEmpty2 (4 ms)
+[ RUN      ] TestDarwin.isEmpty3
+[       OK ] TestDarwin.isEmpty3 (5 ms)
+[ RUN      ] TestDarwin.isEmpty4
+[       OK ] TestDarwin.isEmpty4 (5 ms)
+[ RUN      ] TestDarwin.isEmpty5
+[       OK ] TestDarwin.isEmpty5 (4 ms)
+[ RUN      ] TestDarwin.isEmpty6
+[       OK ] TestDarwin.isEmpty6 (6 ms)
+[ RUN      ] TestDarwin.isEmpty7
+[       OK ] TestDarwin.isEmpty7 (6 ms)
+[ RUN      ] TestDarwin.isEmpty8
+[       OK ] TestDarwin.isEmpty8 (5 ms)
+[ RUN      ] TestDarwin.isEmpty9
+[       OK ] TestDarwin.isEmpty9 (2 ms)
+[ RUN      ] TestDarwin.isEmpty10
+[       OK ] TestDarwin.isEmpty10 (5 ms)
+[ RUN      ] TestDarwin.at1
+[       OK ] TestDarwin.at1 (5 ms)
+[ RUN      ] TestDarwin.at2
+[       OK ] TestDarwin.at2 (4 ms)
+[ RUN      ] TestDarwin.at3
+[       OK ] TestDarwin.at3 (5 ms)
+[ RUN      ] TestDarwin.at4
+[       OK ] TestDarwin.at4 (4 ms)
+[ RUN      ] TestDarwin.at5
+[       OK ] TestDarwin.at5 (5 ms)
+[ RUN      ] TestDarwin.at6
+[       OK ] TestDarwin.at6 (5 ms)
+[ RUN      ] TestDarwin.at7
+[       OK ] TestDarwin.at7 (5 ms)
+[ RUN      ] TestDarwin.begin1
+[       OK ] TestDarwin.begin1 (6 ms)
+[ RUN      ] TestDarwin.begin2
+[       OK ] TestDarwin.begin2 (6 ms)
+[ RUN      ] TestDarwin.begin3
+[       OK ] TestDarwin.begin3 (6 ms)
+[ RUN      ] TestDarwin.begin4
+[       OK ] TestDarwin.begin4 (6 ms)
+[ RUN      ] TestDarwin.begin5
+[       OK ] TestDarwin.begin5 (6 ms)
+[ RUN      ] TestDarwin.begin6
+[       OK ] TestDarwin.begin6 (6 ms)
+[ RUN      ] TestDarwin.begin7
+[       OK ] TestDarwin.begin7 (7 ms)
+[ RUN      ] TestDarwin.begin8
+[       OK ] TestDarwin.begin8 (6 ms)
+[ RUN      ] TestDarwin.begin9
+[       OK ] TestDarwin.begin9 (6 ms)
+[ RUN      ] TestDarwin.begin10
+[       OK ] TestDarwin.begin10 (7 ms)
+[ RUN      ] TestDarwin.end1
+[       OK ] TestDarwin.end1 (6 ms)
+[ RUN      ] TestDarwin.end2
+[       OK ] TestDarwin.end2 (6 ms)
+[ RUN      ] TestDarwin.end3
+[       OK ] TestDarwin.end3 (7 ms)
+[ RUN      ] TestDarwin.end4
+[       OK ] TestDarwin.end4 (6 ms)
+[ RUN      ] TestDarwin.end5
+[       OK ] TestDarwin.end5 (6 ms)
+[ RUN      ] TestDarwin.end6
+[       OK ] TestDarwin.end6 (6 ms)
+[ RUN      ] TestDarwin.end7
+[       OK ] TestDarwin.end7 (6 ms)
+[ RUN      ] TestDarwin.end8
+[       OK ] TestDarwin.end8 (6 ms)
+[ RUN      ] TestDarwin.end9
+[       OK ] TestDarwin.end9 (6 ms)
+[ RUN      ] TestDarwin.end9_2
+[       OK ] TestDarwin.end9_2 (7 ms)
+[ RUN      ] TestDarwin.end10
+[       OK ] TestDarwin.end10 (6 ms)
+[ RUN      ] TestDarwin.end11
+[       OK ] TestDarwin.end11 (7 ms)
+[ RUN      ] TestDarwin.end12
+[       OK ] TestDarwin.end12 (6 ms)
+[ RUN      ] TestDarwin.end13
+[       OK ] TestDarwin.end13 (6 ms)
+[ RUN      ] TestDarwin.end14
+[       OK ] TestDarwin.end14 (7 ms)
+[----------] 57 tests from TestDarwin (307 ms total)
+
+[----------] 13 tests from TestSpecies
+[ RUN      ] TestSpecies.addInstruction1
+[       OK ] TestSpecies.addInstruction1 (15 ms)
+[ RUN      ] TestSpecies.addInstruction2
+[       OK ] TestSpecies.addInstruction2 (3 ms)
+[ RUN      ] TestSpecies.addInstruction3
+[       OK ] TestSpecies.addInstruction3 (5 ms)
+[ RUN      ] TestSpecies.addInstruction4
+[       OK ] TestSpecies.addInstruction4 (5 ms)
+[ RUN      ] TestSpecies.addInstruction5
+[       OK ] TestSpecies.addInstruction5 (4 ms)
+[ RUN      ] TestSpecies.addInstruction6
+[       OK ] TestSpecies.addInstruction6 (2 ms)
+[ RUN      ] TestSpecies.addInstruction7
+[       OK ] TestSpecies.addInstruction7 (3 ms)
+[ RUN      ] TestSpecies.addInstruction8
+[       OK ] TestSpecies.addInstruction8 (3 ms)
+[ RUN      ] TestSpecies.addInstruction9
+[       OK ] TestSpecies.addInstruction9 (3 ms)
+[ RUN      ] TestSpecies.addInstruction10
+[       OK ] TestSpecies.addInstruction10 (3 ms)
+[ RUN      ] TestSpecies.addInstruction11
+[       OK ] TestSpecies.addInstruction11 (4 ms)
+[ RUN      ] TestSpecies.addInstruction12
+[       OK ] TestSpecies.addInstruction12 (4 ms)
+[ RUN      ] TestSpecies.addInstruction13
+[       OK ] TestSpecies.addInstruction13 (4 ms)
+[----------] 13 tests from TestSpecies (59 ms total)
+
+[----------] 40 tests from TestCreatures
+[ RUN      ] TestCreatures.constructor1
+[       OK ] TestCreatures.constructor1 (2 ms)
+[ RUN      ] TestCreatures.constructor2
+[       OK ] TestCreatures.constructor2 (4 ms)
+[ RUN      ] TestCreatures.constructor3
+[       OK ] TestCreatures.constructor3 (3 ms)
+[ RUN      ] TestCreatures.constructor4
+[       OK ] TestCreatures.constructor4 (3 ms)
+[ RUN      ] TestCreatures.constructor5
+[       OK ] TestCreatures.constructor5 (4 ms)
+[ RUN      ] TestCreatures.constructor6
+[       OK ] TestCreatures.constructor6 (3 ms)
+[ RUN      ] TestCreatures.turnLeft1
+[       OK ] TestCreatures.turnLeft1 (4 ms)
+[ RUN      ] TestCreatures.turnLeft2
+[       OK ] TestCreatures.turnLeft2 (3 ms)
+[ RUN      ] TestCreatures.turnLeft3
+[       OK ] TestCreatures.turnLeft3 (4 ms)
+[ RUN      ] TestCreatures.turnLeft4
+[       OK ] TestCreatures.turnLeft4 (4 ms)
+[ RUN      ] TestCreatures.turnRight1
+[       OK ] TestCreatures.turnRight1 (4 ms)
+[ RUN      ] TestCreatures.turnRight2
+[       OK ] TestCreatures.turnRight2 (3 ms)
+[ RUN      ] TestCreatures.turnRight3
+[       OK ] TestCreatures.turnRight3 (4 ms)
+[ RUN      ] TestCreatures.turnRight4
+[       OK ] TestCreatures.turnRight4 (4 ms)
+[ RUN      ] TestCreatures.hop1
+[       OK ] TestCreatures.hop1 (7 ms)
+[ RUN      ] TestCreatures.hop2
+[       OK ] TestCreatures.hop2 (3 ms)
+[ RUN      ] TestCreatures.hop3
+[       OK ] TestCreatures.hop3 (5 ms)
+[ RUN      ] TestCreatures.hop4
+[       OK ] TestCreatures.hop4 (4 ms)
+[ RUN      ] TestCreatures.hop5
+[       OK ] TestCreatures.hop5 (4 ms)
+[ RUN      ] TestCreatures.hop6
+[       OK ] TestCreatures.hop6 (4 ms)
+[ RUN      ] TestCreatures.hop7
+[       OK ] TestCreatures.hop7 (4 ms)
+[ RUN      ] TestCreatures.hop8
+[       OK ] TestCreatures.hop8 (4 ms)
+[ RUN      ] TestCreatures.hop9
+[       OK ] TestCreatures.hop9 (4 ms)
+[ RUN      ] TestCreatures.hop10
+[       OK ] TestCreatures.hop10 (4 ms)
+[ RUN      ] TestCreatures.hop11
+[       OK ] TestCreatures.hop11 (4 ms)
+[ RUN      ] TestCreatures.ifEmpty1
+[       OK ] TestCreatures.ifEmpty1 (3 ms)
+[ RUN      ] TestCreatures.ifEmpty2
+[       OK ] TestCreatures.ifEmpty2 (3 ms)
+[ RUN      ] TestCreatures.ifEmpty3
+[       OK ] TestCreatures.ifEmpty3 (3 ms)
+[ RUN      ] TestCreatures.ifEmpty4
+[       OK ] TestCreatures.ifEmpty4 (4 ms)
+[ RUN      ] TestCreatures.ifEmpty5
+[       OK ] TestCreatures.ifEmpty5 (5 ms)
+[ RUN      ] TestCreatures.ifWall1
+[       OK ] TestCreatures.ifWall1 (3 ms)
+[ RUN      ] TestCreatures.ifWall2
+[       OK ] TestCreatures.ifWall2 (4 ms)
+[ RUN      ] TestCreatures.ifWall3
+[       OK ] TestCreatures.ifWall3 (3 ms)
+[ RUN      ] TestCreatures.ifWall4
+[       OK ] TestCreatures.ifWall4 (4 ms)
+[ RUN      ] TestCreatures.ifWall5
+[       OK ] TestCreatures.ifWall5 (4 ms)
+[ RUN      ] TestCreatures.ifEnemy1
+[       OK ] TestCreatures.ifEnemy1 (6 ms)
+[ RUN      ] TestCreatures.ifEnemy2
+[       OK ] TestCreatures.ifEnemy2 (4 ms)
+[ RUN      ] TestCreatures.ifEnemy3
+[       OK ] TestCreatures.ifEnemy3 (4 ms)
+[ RUN      ] TestCreatures.ifEnemy4
+[       OK ] TestCreatures.ifEnemy4 (4 ms)
+[ RUN      ] TestCreatures.ifEnemy5
+[       OK ] TestCreatures.ifEnemy5 (5 ms)
+[----------] 40 tests from TestCreatures (157 ms total)
+
+[----------] 6 tests from TestCreature
+[ RUN      ] TestCreature.infect1
+[       OK ] TestCreature.infect1 (6 ms)
+[ RUN      ] TestCreature.infect2
+[       OK ] TestCreature.infect2 (4 ms)
+[ RUN      ] TestCreature.infect3
+[       OK ] TestCreature.infect3 (5 ms)
+[ RUN      ] TestCreature.infect4
+[       OK ] TestCreature.infect4 (4 ms)
+[ RUN      ] TestCreature.infect5
+[       OK ] TestCreature.infect5 (5 ms)
+[ RUN      ] TestCreature.infect6
+[       OK ] TestCreature.infect6 (5 ms)
+[----------] 6 tests from TestCreature (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 126 tests from 5 test cases ran. (631 ms total)
+[  PASSED  ] 126 tests.
+==8883== 
+==8883== HEAP SUMMARY:
+==8883==     in use at exit: 0 bytes in 0 blocks
+==8883==   total heap usage: 3,022 allocs, 3,022 frees, 5,514,940 bytes allocated
+==8883== 
+==8883== All heap blocks were freed -- no leaks are possible
+==8883== 
+==8883== For counts of detected and suppressed errors, rerun with: -v
+==8883== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:51.98% of 177
+Branches executed:50.71% of 280
+Taken at least once:35.00% of 280
+Calls executed:49.47% of 188
+Creating 'Darwin.c++.gcov'
+File 'TestDarwin.c++'
+Lines executed:100.00% of 1041
+Branches executed:80.15% of 5684
+Taken at least once:40.11% of 5684
+Calls executed:61.02% of 7671
+Creating 'TestDarwin.c++.gcov'
