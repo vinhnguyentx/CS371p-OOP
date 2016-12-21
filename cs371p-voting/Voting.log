@@ -1,0 +1,212 @@
+commit 8da8ba17ec36ed20a1dc3bf3d1cd21d1740abc33
+Author: Mark Daniel <md26977@cs.utexas.edu>
+Date:   Thu Sep 24 19:21:21 2015 -0500
+
+    fixed test
+
+commit 2a32c5e32c543210f899b65de2e44ac06edbaa55
+Merge: 8393415 9064815
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Sep 24 18:51:19 2015 -0500
+
+    adding some tests
+
+commit 839341513c8c8bd394b6722c82232a1f16aa2299
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Sep 24 18:43:20 2015 -0500
+
+    adding some tests
+
+commit 032ca40450b86966bdd0c87129e55bf3e3b87933
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Sep 24 18:40:12 2015 -0500
+
+    update Tests
+
+commit 90648153130d0d143ba7fb936fc2512c4d94d720
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Thu Sep 24 18:39:00 2015 -0500
+
+    improved formating
+
+commit 5b0152b115e72b9924e11e74fc4ab9812269009f
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Thu Sep 24 18:36:28 2015 -0500
+
+    got it passing on uva
+
+commit 3b9100d0100eceb41d20f65b84a634396839a282
+Merge: efd8b5a 756a39f
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Thu Sep 24 00:15:56 2015 -0500
+
+    Merge branch 'fix_final_bugs' of https://github.com/DarkManiel/cs371p-voting into fix_final_bugs
+
+commit efd8b5ae7d94cd8074e2f0330470f616dc2cf446
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Thu Sep 24 00:14:59 2015 -0500
+
+    passing on public test repo. still not on uva
+
+commit 756a39f7bf77ea8c7419d677cf134065016cfaf0
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Sep 23 22:09:49 2015 -0500
+
+    update Voting.h and TestVoting.c++
+
+commit 1fac1144b619e9d80e32351c36b2aca3c28bdb1b
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Sep 23 21:28:06 2015 -0500
+
+    update TestVoting.c++
+
+commit b4e8d448f99536ac2c430b66d74ea9367eafcdcf
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 23 19:30:39 2015 -0500
+
+    added UVAVoting.c++
+
+commit 75f56732e4f121ab1e0ee5b2401522689c6f4b2c
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 23 17:07:34 2015 -0500
+
+    added logic to move passed lost candidates. closes #15
+
+commit 0ab5dc35e0567fc410de8547c0b533076b533017
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 23 15:23:59 2015 -0500
+
+    fixed some bugs on losing_ballots. closes #1, closes #5, closes #14
+
+commit de29a3e41453bf69116523cc1648e27168860942
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Mon Sep 21 01:48:08 2015 -0500
+
+    fixed min/max issue for ties. closes #12. closes #11
+
+commit 4502c1b1e7df92632071c4731e753a98b83b3bdb
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Mon Sep 21 01:15:56 2015 -0500
+
+    created Result type and fixed some problems. still not perfect. closes #13
+
+commit 52deea12f5e568f653a93b4e8d79edabd4260af8
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Sun Sep 20 20:03:37 2015 -0500
+
+    update RunVoting.in
+
+commit 69f5d2ad26b49d61bce54f49f9e64211dd1cafe4
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 18:04:43 2015 -0500
+
+    partially fixed tie
+
+commit 00e01a8d8100228b70866791065ade722b3d0c7d
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Sun Sep 20 17:17:10 2015 -0500
+
+    update infile
+
+commit 92af3f3c058bfce9b005d3d33e735bec24276b56
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 15:55:16 2015 -0500
+
+    fixed perfect tie issue. closes #8
+
+commit 8a89732da83ad27f113408761dd9bb9ed4e73202
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 15:29:40 2015 -0500
+
+    got successful travis build and started working on all losers case. closes #4
+
+commit 69bc1be950bb0f87ca6a6d7626a0d85d4cc7ef23
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 15:02:57 2015 -0500
+
+    got successful travis build. closes #9
+
+commit 27dbe8ae2048eb5e94bf293eb92f29bfaaf73ac8
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 14:56:24 2015 -0500
+
+    trying to get successful travis build
+
+commit 5cde0af2885db50bc563b7f0a4cf7d848e392770
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 14:53:17 2015 -0500
+
+    changed indexing. closes #9
+
+commit 16659d9102985b34e0ac1cd60f61bbfb7c0c7bed
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sun Sep 20 10:20:33 2015 -0500
+
+    fixed inf loop. testing suite broken. closes #7
+
+commit dca19af291118e9f5c3d9d1a8295c2c330bfa117
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sat Sep 19 19:01:00 2015 -0500
+
+    made some updates. still not right
+
+commit b9f738938bd5a60d7a02c9a7786d057b45526e7d
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Sat Sep 19 15:28:53 2015 -0500
+
+    changed ballots to class. need to fix inf loop. closes #6
+
+commit fbad67cd022ee6834b056733759d198f81d8ab51
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 16 18:53:51 2015 -0500
+
+    initializing get winner method
+
+commit 9585591fa7dfecafdf41284923b50374162c8e58
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 16 18:49:22 2015 -0500
+
+    got basic data structures working
+
+commit 3b653a335adcb174a9fc86ec8e3e7e02f8787b5e
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 16 16:56:00 2015 -0500
+
+    updated file reading
+
+commit bae3cc46aebd7b2810e5308d8bb568b6f97fcb5e
+Merge: e2ed1c3 9ba2442
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 16 12:43:24 2015 -0500
+
+    Merge branch 'master' of https://github.com/DarkManiel/cs371p-voting
+
+commit e2ed1c38b9fad5fac62642404d83be913991bcbe
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Wed Sep 16 12:42:52 2015 -0500
+
+    updated files from Vinh
+
+commit 9ba244247fc228a4ccca3ede871373b5c4abe3e3
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Sep 15 21:48:18 2015 -0500
+
+    got it running
+
+commit 257646d70fc9e9e478362408f458d836ea5dad31
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Sep 15 21:31:26 2015 -0500
+
+    commit voting.c++
+
+commit fb4692ba1e25e608dd99f044fd30ec5f2de62c06
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Tue Sep 15 19:35:16 2015 -0500
+
+    initial push
+
+commit c3401246d6e7878226d19aacaf64fce94afc5ca7
+Author: Mark Daniel <mark.r.daniel@gmail.com>
+Date:   Tue Sep 15 19:17:46 2015 -0500
+
+    Initial commit

@@ -1,0 +1,66 @@
+==24300== Memcheck, a memory error detector
+==24300== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==24300== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==24300== Command: TestVoting
+==24300== 
+Running main() from gtest_main.cc
+[==========] Running 6 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 6 tests from VotingFixture
+[ RUN      ] VotingFixture.voting_check_tie_1
+[       OK ] VotingFixture.voting_check_tie_1 (31 ms)
+[ RUN      ] VotingFixture.voting_check_tie_2
+[       OK ] VotingFixture.voting_check_tie_2 (3 ms)
+[ RUN      ] VotingFixture.voting_check_tie_3
+[       OK ] VotingFixture.voting_check_tie_3 (3 ms)
+[ RUN      ] VotingFixture.voting_solve_1
+[       OK ] VotingFixture.voting_solve_1 (73 ms)
+[ RUN      ] VotingFixture.voting_solve_2
+TestVoting.c++:72: Failure
+Value of: w.str()
+  Actual: "John Doe\n\nJohn Doe\nJane Smith\nSirhan Sirhan\n"
+Expected: "John Doe\n\nJohn Doe\nJane Smith\nSirhan Sirhan"
+[  FAILED  ] VotingFixture.voting_solve_2 (33 ms)
+[ RUN      ] VotingFixture.voting_solve_3
+TestVoting.c++:83: Failure
+Value of: w.str()
+  Actual: "John Doe\nJane Smith\n\nJohn Doe\n\nJohn Doe\n\nJohn Doe\n"
+Expected: "John Doe\nJane Smith\n\nJohn Doe\n\nJohn Doe\n\nJohn Doe"
+[  FAILED  ] VotingFixture.voting_solve_3 (11 ms)
+[----------] 6 tests from VotingFixture (160 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test case ran. (184 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] VotingFixture.voting_solve_2
+[  FAILED  ] VotingFixture.voting_solve_3
+
+ 2 FAILED TESTS
+==24300== 
+==24300== HEAP SUMMARY:
+==24300==     in use at exit: 48 bytes in 3 blocks
+==24300==   total heap usage: 961 allocs, 958 frees, 87,368 bytes allocated
+==24300== 
+==24300== LEAK SUMMARY:
+==24300==    definitely lost: 48 bytes in 3 blocks
+==24300==    indirectly lost: 0 bytes in 0 blocks
+==24300==      possibly lost: 0 bytes in 0 blocks
+==24300==    still reachable: 0 bytes in 0 blocks
+==24300==         suppressed: 0 bytes in 0 blocks
+==24300== Rerun with --leak-check=full to see details of leaked memory
+==24300== 
+==24300== For counts of detected and suppressed errors, rerun with: -v
+==24300== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Voting.c++'
+Lines executed:84.83% of 178
+Branches executed:84.81% of 316
+Taken at least once:52.22% of 316
+Calls executed:73.64% of 239
+Creating 'Voting.c++.gcov'
+File 'TestVoting.c++'
+Lines executed:100.00% of 31
+Branches executed:81.40% of 172
+Taken at least once:40.70% of 172
+Calls executed:65.44% of 217
+Creating 'TestVoting.c++.gcov'

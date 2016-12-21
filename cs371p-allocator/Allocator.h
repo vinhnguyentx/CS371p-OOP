@@ -1,9 +1,3 @@
-// ------------------------------
-// projects/allocator/Allocator.h
-// Copyright (C) 2015
-// Glenn P. Downing
-// ------------------------------
-
 #ifndef Allocator_h
 #define Allocator_h
 

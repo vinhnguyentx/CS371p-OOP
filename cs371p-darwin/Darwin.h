@@ -1,4 +1,4 @@
-/** @file Darwin.h                                                            
+/** @file Darwin.h
  *  @brief A program that simulates Darwin's World.
  */
 
@@ -8,8 +8,8 @@
  *  Each species has a program (a set of instructions).
  *  A creature executes the instruction indicated by the program counter. Each creature is given a turn.\n
  *
- *  Class: CS371p - Fall 2015 \n
- *  Student 1: Vinh Nguyen - vtn288\n
+ *  Class: CS371p - Fall 2015
+ *  Student 1: Vinh Nguyen - vtn288
  *  Student 2 : Hieu Nguyen - hn3935
  */
 
@@ -41,7 +41,7 @@ class Creature;
  *  @brief Each species has a program (a set of instructions).
  */
 class Species {
-    
+
     private:
         std::string sp_name;    // the name of the species
         std::vector<std::pair<std::string, int>> program;   // Th program: a set of instructions for the species
@@ -208,10 +208,10 @@ class Darwin {
                  using reference         = T&;
 
             private:
-                T* _v;  // 
+                T* _v;  //
 
             public:
-                
+
                 iterator() : _v(nullptr) {
                 }
 
@@ -276,7 +276,7 @@ class Darwin {
         iterator begin() {
             return iterator(&grid[0]);
         }
-        
+
         // end() returns the end iterator in Darwin
         iterator end() {
             return iterator(&grid[row * col]);
@@ -298,7 +298,7 @@ class Darwin {
             grid.resize(r * c, 0);
         }
 
-        
+
         /**
          * @brief Change an iterator in Darwin into a location on the grid
          * @param it an iterator
@@ -307,7 +307,7 @@ class Darwin {
         location itToLocation(iterator it);
 
         /**
-         * @brief Change a location on the grid into an iterator in Darwin 
+         * @brief Change a location on the grid into an iterator in Darwin
          * @param loc a location
          * @return an iterator
          */
@@ -333,10 +333,10 @@ class Darwin {
          * @return a pointer to a creature
          */
         T& at(const location& loc);
-        
+
         /**
          * @brief Run the Darwin's world
-         * Darwin gives each Creature a turn in a left-to-right and top-down ordering. 
+         * Darwin gives each Creature a turn in a left-to-right and top-down ordering.
          * During a turn a Creature can execute only one action instruction.
          */
         void run();
