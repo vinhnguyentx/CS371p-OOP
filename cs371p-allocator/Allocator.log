@@ -1,0 +1,137 @@
+commit 086a9c2b1b47df28424bd636b494ec94672a75b4
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 18:34:30 2015 -0500
+
+    update final
+
+commit e5bafd7a60271dafecfba6dfbf6275433f97d8cc
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 18:30:01 2015 -0500
+
+    finalizing
+
+commit 2c6ec5960d5a16c2f90c204eb6b526981c319955
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 17:43:23 2015 -0500
+
+    update tests
+
+commit a40d6e9e4decd4a9553738dc20d5abad941001a0
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 15:31:56 2015 -0500
+
+    update test cases Closes #6 Closes #7 Closes #8 Closes #9 Closes #10 Closes #11 Closes #12 Closes #13 Closes #14
+
+commit 9fd4d5f5556619ebb8c77ae690eb387ab6a46a42
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 13:46:57 2015 -0500
+
+    update Test cases Closes #2 Closes #4 Closes #5
+
+commit 3bbec71d66ace2882e3a8cf53bf6bec1ad1637cc
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Thu Oct 22 04:48:22 2015 -0500
+
+    update Allocator.h Closes #3 #4
+
+commit 4f0a26fab171c6628a90fb84ef373fd726b44058
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 14:46:00 2015 -0500
+
+    update Closes #1
+
+commit c40c78aa9ff9c1b2ce9b2a615b0b8c0f61a6ac05
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 11:26:49 2015 -0500
+
+    update test
+
+commit dd2d230dffa6018bca87d722f0c4fc87536931ef
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 11:18:28 2015 -0500
+
+    update test
+
+commit aeb3f6943417faef3ab26f2c41fcfbb34c56a540
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 11:11:45 2015 -0500
+
+    update test
+
+commit 2b29a7390c17b3f3e9d4ae8a173e07905a1ce081
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 01:55:34 2015 -0500
+
+    update makefile
+
+commit 404fa6bad0c30b62da00685e3f915ea0760c25d1
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 01:48:17 2015 -0500
+
+    update makefile
+
+commit 5352c22bf0843310b998903ce3e22d43827bddef
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 01:37:40 2015 -0500
+
+    update makefile
+
+commit 3875114706972c350606547b5c78b409c6b9efb0
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 01:14:44 2015 -0500
+
+    update makefile
+
+commit b7a6959d30689dd878739cd641a7aa5b11ff9550
+Author: Vinh Nguyen <vinhnguyentx@utexas.edu>
+Date:   Wed Oct 21 01:02:31 2015 -0500
+
+    update doxyfile
+
+commit a9b66d9c3860feee5b100550edb3f85ecd3be52b
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 00:15:55 2015 -0500
+
+    closes
+
+commit 07593c64d5b1a9e6e8ee427de68a0b264a936e42
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Wed Oct 21 00:06:41 2015 -0500
+
+    update
+
+commit 2e46f4037d006b030a28254fd4a60f9b8a1eb1ec
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Oct 20 23:58:05 2015 -0500
+
+    update
+
+commit 6e322952f044562dc57e8ca8815393bad31aca93
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Oct 20 23:47:49 2015 -0500
+
+    update travis
+
+commit d1519fd5e21d304bd0c068d4f1d29813bc3fdea1
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Oct 20 23:42:45 2015 -0500
+
+    add travis file
+
+commit 66851ca96e1899811aab83a58cd33602dd9916e3
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Tue Oct 20 23:37:51 2015 -0500
+
+    update files
+
+commit 2f9b50b87db8dc45cc75a20d16229ace7a781f54
+Author: vinhnguyen82 <vinhnguyentx@gmail.com>
+Date:   Mon Oct 12 09:48:29 2015 -0500
+
+    initialize files
+
+commit 4f843cf5cbf178f4cb75721e66506a73458d38de
+Author: vinhnguyen82 <vinhnguyentx@utexas.edu>
+Date:   Mon Oct 12 09:20:46 2015 -0500
+
+    Initial commit
